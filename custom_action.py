@@ -1,12 +1,18 @@
+# Example application for Frame.io's custom action feature. 
+
 from flask import Flask, jsonify, request
 import json
 
 app = Flask(__name__)
 
+# GET is not used with custom actions, but tools like Glitch or Postman are often set to try a GET request.
+# This is provided so you don't receive a 'Can't GET' notification.
 
 @app.route('/', methods=['GET', 'POST'])
 def hello_www():
   return "Hello World!"
+
+# Send a POST request to /actions to create a form in the Frame.io web app
 
 @app.route('/actions', methods=['POST'])
 def callback():
