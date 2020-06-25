@@ -61,7 +61,7 @@ def callback(data: Dict):
 	# The special case tells the user their form submitted successfully.
     if "data" in data:
         return JSONResponse({
-        'title': 'Your form titled "' + data['data']['title'] + "' posted successfully.',
+        'title': 'Your form titled "' + data['data']['title'] + '" posted successfully.',
         })
 
 	# The default behavior or 'base case' surfaces the form to the user.

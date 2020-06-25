@@ -104,7 +104,7 @@ def upload_to_youtube(data: Dict):
             }
 
             #TODO is there a more appropriate FastAPI pattern for this request?
-            post_to_youtube = requests.post(ZAPIER_HOOK_URL, data=json.dumps(payload))
+            requests.post(ZAPIER_HOOK_URL, data=json.dumps(payload))
 
 	        # The special case tells the user their form submitted successfully.
             return JSONResponse({
