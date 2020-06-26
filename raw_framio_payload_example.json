@@ -1,0 +1,18 @@
+{
+    "action_id": "12a4a0c0-4da4-46a5-932f-07a02a587380",
+    "interaction_id": "ac3758ec-dc21-4d35-8db5-10c8c2db383a",
+    "project": {
+      "id": "22ac5cd0-36db-4f4f-9301-79036fa2fa6a"
+    },
+    "resource": {
+      "id": "175db638-3c9f-4bd8-bb3f-ddc8b17cad4a",
+      "type": "asset"
+    },
+    "team": {
+      "id": "e163c461-aad3-4955-be89-2fce1498627b"
+    },
+    "type": "test.event",
+    "user": {
+      "id": "59c9ade1-311b-4c3b-8231-b9d88e9a1a85"
+    }
+  }
