@@ -24,6 +24,7 @@ We'll add samples to this repository over time. This is an open source resource 
 ## Pre-requisites 
 
 * [Frame.io account](https://developer.frame.io/)
+* Note that you will need **Team Manager or Admin** permissions to create Custom Actions for your team.
 * A valid bearer token or OAuth app token
 * A Zapier account (see [example Zap](https://zapier.com/shared/e843e87f06172a4ad6ef7854e651921894c4eb44))
 * Web server with a publicly accessible address - we recommend [ngrok](https://docs.frame.io/docs/how-to-setup-and-troubleshoot-ngrok-mac)
