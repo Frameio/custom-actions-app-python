@@ -8,7 +8,7 @@ Frame.io's [custom actions](https://docs.frame.io/docs/custom-actions) feature a
 
 Custom actions are triggered by users within the app.  Once enabled on developer.frame.io, they display in the right-click dropdown menu available on any asset. In the example below, *Test* is the name of the custom action:
 
-<p align="center"><img width="362" alt="Screen Shot 2019-10-03 at 4 54 58 PM" src="https://user-images.githubusercontent.com/19295862/66240029-3b989a00-e6b0-11e9-90fc-3d7cf91d346c.png"></p>
+<p align="center"><img width="500px" alt="Custom Action Send to YouTube" src="https://static-assets.frame.io/devrel/images/custom-action-send-youtube.png"></p>
 
 _If you aren't familiar with assets, read about them in the [API Guides](https://docs.frame.io/docs/uploading-assets)._
 
